@@ -218,12 +218,7 @@ public class day_03
                     leftStop = true; rightStop = true;
 
                     // Move past this number
-                    if (rightIndex > x + 1)
-                    {
-                        j = x + 1;
-                    }
-                    else
-                        j = rightIndex;
+                    j = Math.min(rightIndex, x + 1);
                 }
             }
         }
