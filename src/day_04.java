@@ -14,7 +14,6 @@ public class day_04
     public static BufferedReader reader;
     public static String input;
     public static Pattern pattern = Pattern.compile("Card( +)([0-9]+):( +)(.*) \\|( +)([0-9].*)");
-    String sth = "\"Old Value\":\"([a-zA-Z !@#$%^&*_+-={}\\|:',<.>/?]*)\"";
     public static Matcher matcher;
     public static int sum;
 
